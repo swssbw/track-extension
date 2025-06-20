@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "내 대체휴가 계산해줘",
+  "version": "1.0",
+  "description": "내 대체휴가 계산해줘",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"]
+}

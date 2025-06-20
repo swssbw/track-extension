@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>내 대체휴가 계산해줘</title>
+  </head>
+  <body style="font-size: 14px; padding: 32px 32px; width: 320px">
+    <h2 style="margin-top: 0">내 대체휴가 계산해줘</h2>
+    <input
+      type="file"
+      id="fileInput"
+      accept=".xls"
+    />
+
+    <p
+      style="margin: 0"
+      id="summary"
+    ></p>
+    <button
+      id="showDetail"
+      style="display: none"
+    >
+      자세히 보기
+    </button>
+
+    <script src="xlsx.full.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
