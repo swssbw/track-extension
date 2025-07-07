@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>내 대체휴가 계산해줘</title>
   </head>
-  <body style="font-size: 14px; padding: 32px 32px; width: 320px">
+  <body style="position: relative; z-index: 1; font-size: 14px; padding: 32px 32px; width: 320px">
     <h2 style="margin-top: 0">내 대체휴가 계산해줘</h2>
     <input
       type="file"
@@ -13,16 +13,21 @@
     />
 
     <p
-      style="margin: 0"
+      style="margin: 0; position: relative; z-index: 1"
       id="summary"
     ></p>
     <button
-      id="showDetail"
+      id="editDetail"
       style="display: none"
     >
       자세히 보기
     </button>
 
+    <img
+      style="position: absolute; right: 0; bottom: 0; z-index: 0"
+      src="./pocha.webp"
+      width="120px"
+    />
     <script src="xlsx.full.min.js"></script>
     <script src="popup.js"></script>
   </body>
